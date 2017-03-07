@@ -1,0 +1,24 @@
+uuid: 02dbd5a2-66ef-4507-9a3f-cb7d3b53e0f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.wonder.body
+    - node.type.wonder
+  module:
+    - text
+    - user
+id: node.wonder.default
+targetEntityType: node
+bundle: wonder
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

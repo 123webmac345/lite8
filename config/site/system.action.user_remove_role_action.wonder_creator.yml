@@ -1,0 +1,14 @@
+uuid: fbb50681-75c7-4166-bf8a-445a7c043ec3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.wonder_creator
+  module:
+    - user
+id: user_remove_role_action.wonder_creator
+label: 'Remove the Wonder creator role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: wonder_creator

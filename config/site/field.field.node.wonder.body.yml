@@ -1,0 +1,22 @@
+uuid: 80b9db44-e3fd-4761-b5bf-3a4ebaa82d1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.wonder
+  module:
+    - text
+id: node.wonder.body
+field_name: body
+entity_type: node
+bundle: wonder
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

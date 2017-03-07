@@ -1,0 +1,14 @@
+uuid: 22382d96-4207-47ab-a516-c3a19fe386e2
+name: cmstest.clackamas.us-DEV
+mail: ericlau@clackamas.us
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

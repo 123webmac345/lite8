@@ -1,0 +1,26 @@
+uuid: 27ef8378-c3c5-4e81-b395-5cc1e84de1ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.wonder.body
+    - node.type.wonder
+  module:
+    - text
+    - user
+id: node.wonder.teaser
+targetEntityType: node
+bundle: wonder
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

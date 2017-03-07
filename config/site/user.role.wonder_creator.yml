@@ -1,0 +1,26 @@
+uuid: 103af641-97fd-4e8f-b2e5-9f0db3701727
+langcode: en
+status: true
+dependencies: {  }
+id: wonder_creator
+label: 'Wonder creator'
+weight: 11
+is_admin: null
+permissions:
+  - 'create wonder content'
+  - 'edit own wonder content'
+  - 'view wonder revisions'
+  - 'view own unpublished content'
+  - 'create url aliases'
+  - 'access panels in-place editing'
+  - 'change layouts in place editing'
+  - 'administer panelizer node wonder content'
+  - 'administer panelizer node wonder layout'
+  - 'use text format rich_text'
+  - 'access media_browser entity browser pages'
+  - 'access image_browser entity browser pages'
+  - 'view any unpublished content'
+  - 'use draft_draft transition'
+  - 'use draft_needs_review transition'
+  - 'use needs_review_needs_review transition'
+  - 'view latest version'

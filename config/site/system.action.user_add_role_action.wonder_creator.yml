@@ -1,0 +1,14 @@
+uuid: 8b4ece51-710c-4183-8bc0-ba23357c70e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.wonder_creator
+  module:
+    - user
+id: user_add_role_action.wonder_creator
+label: 'Add the Wonder creator role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: wonder_creator

@@ -1,0 +1,17 @@
+uuid: 2300928f-2348-4d83-8f4b-8bb4f029b806
+langcode: en
+status: true
+dependencies: {  }
+id: wonder_reviewer
+label: 'Wonder reviewer'
+weight: 12
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'edit any wonder content'
+  - 'delete any wonder content'
+  - 'use draft_published transition'
+  - 'use needs_review_draft transition'
+  - 'use needs_review_published transition'
+  - 'use published_published transition'
+  - 'use published_archived transition'

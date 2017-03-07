@@ -1,0 +1,14 @@
+uuid: c5bf2312-5aa8-43ea-a4f0-13cf9d74f51b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.wonder_reviewer
+  module:
+    - user
+id: user_remove_role_action.wonder_reviewer
+label: 'Remove the Wonder reviewer role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: wonder_reviewer
